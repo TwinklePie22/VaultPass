@@ -1,0 +1,33 @@
+{
+  "name": "production-server-password-manager",
+  "version": "1.0.0",
+  "description": "\"# Password-Manager\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saturnbored/Password-Manager.git"
+  },
+  "author": "Brown-munde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saturnbored/Password-Manager/issues"
+  },
+  "homepage": "https://github.com/saturnbored/Password-Manager#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.2",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}
